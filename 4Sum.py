@@ -1,6 +1,6 @@
 def fourSum(self, nums, target):
-	nums.sort()
 	results = []
+	nums.sort()
 	self.findNsum(nums, target, 4, [], results)
 	return results
 
